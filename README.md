@@ -2,6 +2,8 @@
 My personnal tools for development with Tomcat, particularly with a remote server like in a Docker container.
 The main intent is to allow "resource hot-deployment" in a running webapp, which seems impossible in various IDE for a remote server. More info in the [Docker page](https://hub.docker.com/r/jambonnade/tomcat-dev/).
 
+**Status : unmaintained / deprecated**. I just share the code if you want to build a similar system.
+
 ## Fsobs
 This system is built around **inotifywait** tool to observe filesystem events on a directory and process them with user scripts.
 To start a monitoring loop :
